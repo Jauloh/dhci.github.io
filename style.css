@@ -1,0 +1,351 @@
+body
+{
+	background-color : #1A3636;/*#0a6d53 #0b5345 #054d39 #003c28*/
+}
+header
+{
+	max-width: 991px;
+	width: 100%;
+	max-width: 70rem;
+	font-family: Arial;
+} .logo
+		{
+			margin: 5%;
+			color : white;
+			font-weight: bold;
+			font-family: Roboto, Arial,sans-serif;
+			font-size: 3vw;
+		}
+
+/*SECTION*/
+
+section
+{
+	margin-top: 10%;
+	height: 60vh;
+}
+		.assurez
+		{
+			margin-left: 5%;
+			color : white;
+			font-weight: bold;
+			font-size: 2.25rem;
+			font-family: Arial,sans-serif;
+			line-height: 1.2;
+			width: 50%;
+		} .assurez_texte
+				{
+					margin-top: -50px;
+				} #assurez_texte_2
+						{
+							font-size: 1.8rem;
+						}
+		.call_to_action
+		{
+			margin-top: 5%;
+			margin-left: 5%;
+			background-color: #fffa2e;
+			padding: .5%;
+			/*padding-left: 2.5rem;
+    		padding-right: 2.5rem;*/
+    		text-align: center;
+    		/*height: 7%;*/
+			width: 20%;
+
+			color: #12322A;
+			font-weight: bold;
+			font-size: 2vw;
+			border-radius: 0.5vw;
+		}
+		
+
+#image_arriere
+{
+	z-index: -20;
+    background-image: url("./image/201.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: flex-end;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    /*bottom: -34%;*/
+    /*left: auto;*/
+    right: 0;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+#close
+{
+	display: flex;
+	position: absolute;
+	margin: 2%;
+
+} #close img
+		{
+			width: 30%;
+		}
+
+#formulaire_box
+{
+	background-color: rgba(0, 0, 0, .9);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#formulaire
+{
+	margin: 10% 0 10% 25%;
+	width: 50vw;
+/*	background-color: #FFFFCC;*/
+
+	background-image: url("./image/2149220714.jpg");
+	    background-position: 50%;
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+}	.hidden 
+	{
+    display: none;
+	}
+	#formulaire_exit
+	{
+		height: 5vh;
+		width: 2.5vw;
+		background-color: darkred;
+	}
+
+
+	#thankYouMessage
+	{
+		color: white;
+		margin: 10% 0 10% 25%;
+		width: 50vw;
+		text-align: center;
+	} #thankYouMessage img
+			{
+				width: 10vw;
+			}
+		#thankYouMessage a
+			{
+				display:block;
+	            color: white;
+	            text-decoration: none;
+	            cursor: pointer;
+			}
+		#thankYouMessage button
+			{
+				width: 50%/*390px*/;
+				text-align: center;
+				height: 40px;
+				border-radius: 40px;
+				font-weight: bold;
+				padding: 10px;
+				outline: none;
+				background: #fff000;
+				box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+				border: 1px solid #fff;
+				transition: all 0.3s ease;
+			}
+
+
+
+	form
+	{
+	margin-top: 20vh;
+	width: 100%;
+	text-align: center;
+	}
+
+input[type=text], input[type=email]{
+	margin-top: 5px;
+	width: 60%/*390px*/;
+	text-align: center;
+	height: 20px;
+	border-radius: 40px;
+	padding: 10px;
+	outline: none;
+	background: rgba(0,0,0,0.5);
+	border: 1px solid #fff;
+	transition: all 0.3s ease;
+}
+input[type=text]:focus, input[type=email]:focus{
+	background: rgba(102,51,153, 0.3);
+	color: #fff;
+	border: 1px solid violet;
+}
+::placeholder{
+	text-align: center;
+	color: #fff;
+}
+
+input[type=submit]
+{
+	margin-top: -40px;
+	width: 50%/*390px*/;
+	text-align: center;
+	height: 40px;
+	border-radius: 40px;
+	font-weight: bold;
+	padding: 10px;
+	outline: none;
+	background: #fff000;
+	box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+	border: 1px solid #fff;
+	transition: all 0.3s ease;
+} input[type=submit]: focus {background-color: green;}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media (max-width: 412px){
+	    /*SECTION*/
+
+.logo
+		{
+			margin: 5%;
+			color : white;
+			font-weight: bold;
+			font-family: Roboto, Arial,sans-serif;
+			font-size: 8vw;
+		}
+
+
+section
+{
+	margin-top: 10%;
+	height: 60vh;
+}
+		.assurez
+		{
+			margin-left: 5%;
+			color : white;
+			font-weight: bold;
+			font-size: 1.25rem;
+			font-family: Arial,sans-serif;
+			line-height: 1.2;
+			width: 90%;
+		} .assurez_texte
+				{
+					margin-top: 10%;
+				}	#assurez_texte_1
+						{
+							margin-top: 20%;
+							font-size: 1.5rem;
+						}
+					#assurez_texte_2
+						{
+							margin-top: 80%;
+						}
+
+		.call_to_action
+		{
+			margin-top: 15%;
+			margin-left: 20%;
+			background-color: #fffa2e;
+			padding: 1.5%;
+			/*padding-left: 2.5rem;
+    		padding-right: 2.5rem;*/
+    		text-align: center;
+    		/*height: 7%;*/
+			width: 60%;
+
+			color: #12322A;
+			font-weight: bold;
+			font-family: Arial;
+			font-size: 7vw;
+			border-radius: 1vw;
+		}
+		
+
+#image_arriere
+{
+	z-index: -20;
+    background-image: url("./image/201.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: flex-end;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    top: -1%;
+    /*bottom: -34%;*/
+    left: 10%;
+    /*right: 0;*/
+}
+
+form
+	{
+	margin-top: 20vh;
+	width: 100%;
+	text-align: center;
+	}
+
+}
+
+@media (min-width: 375px) AND (max-width: 390px){
+
+	#assurez_texte_1
+		{
+			margin-top: 8%;
+			font-size: 1.5rem;
+		}
+	#assurez_texte_2
+		{
+			margin-top: 60%;
+		}
+
+	.call_to_action
+		{
+			margin-top: 8%;
+			margin-left: 20%;
+			background-color: #fffa2e;
+			padding: 1.5%;
+			/*padding-left: 2.5rem;
+    		padding-right: 2.5rem;*/
+    		text-align: center;
+    		/*height: 7%;*/
+			width: 60%;
+
+			color: #12322A;
+			font-weight: bold;
+			font-family: Arial;
+			font-size: 7vw;
+			border-radius: 1vw;
+		}
+
+	#image_arriere
+	{
+		z-index: -20;
+	    background-image: url("./image/201.png");
+	    background-position: 50%;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    align-items: flex-end;
+	    width: 80vw;
+	    height: 80vh;
+	    display: flex;
+	    position: absolute;
+	    top: -1%;
+	    /*bottom: -34%;*/
+	    left: 10%;
+	    /*right: 0;*/
+}
+
+
+form
+	{
+	margin-top: 30vh;
+	width: 100%;
+	text-align: center;
+	}
+
+}
